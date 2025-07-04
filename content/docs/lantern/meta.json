@@ -1,0 +1,10 @@
+{
+	"title": "Lantern",
+	"descritption": "A web search engine",
+	"icon": "Lightbulb",
+	"root": true,
+	"pages": [
+		"---Introduction---",
+		"index"
+	]
+}
