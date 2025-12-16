@@ -1,21 +1,19 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Lantern Docs",
   description: "Documentation for Lantern projects",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Atheja', link: '/atheja/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Atheja API',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Overview', link: '/atheja/' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
