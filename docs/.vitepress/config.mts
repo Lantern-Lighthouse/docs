@@ -14,7 +14,7 @@ export default defineConfig({
         text: 'Atheja API',
         items: [
           { text: 'Overview', link: '/atheja/' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Config', link: '/atheja/config' }
         ]
       }
     ],
