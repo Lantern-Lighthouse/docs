@@ -1,0 +1,7 @@
+# Package-related
+node_modules/
+bun.lock
+
+# VitePress-related
+docs/.vitepress/cache/
+docs/.vitepress/dist/
