@@ -24,3 +24,4 @@ features:
     details: Basic and fast front-ends for older systems.
 ---
 
+Lantern is a free, and open search engine focused on **comunity** with **no ads** and **no tracking**.
