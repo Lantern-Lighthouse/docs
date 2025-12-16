@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -9,17 +8,19 @@ hero:
   actions:
     - theme: brand
       text: Visit Lantern
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Open Source
+      link: https://github.com/Lantern-Lighthouse
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Atheja
+    icon: 🔍
+    details: The project's heart. Handles all searching, users and other.
+  - title: Dymur
+    icon: 🌐
+    details: Modern front-end. Currently planned.
+  - title: Quicksilver/Quicksand
+    icon: ⚡
+    details: Basic and fast front-ends for older systems.
 ---
 
