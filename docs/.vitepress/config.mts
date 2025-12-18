@@ -16,11 +16,30 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Atheja API',
+        text: 'Atheja',
         items: [
           { text: 'Overview', link: '/atheja/' },
           { text: 'Config', link: '/atheja/config' },
-          { text: 'Database', link: '/atheja/database' }
+          { text: 'Database', link: '/atheja/database' },
+          {
+            text: 'API',
+            base: '/atheja/api/',
+            items: [
+              { text: 'Overview', link: '/' },
+              { text: 'Database', link: 'db' },
+              { text: 'User', link: 'user' },
+              {
+                text: 'Search',
+                base: '/atheja/api/search/',
+                items: [
+                  { text: 'Categories', link: 'categories' },
+                  { text: 'Tags', link: 'tags' },
+                  { text: 'Entries', link: 'entries' },
+                ]
+              },
+              { text: 'Ribbit', link: 'ribbit' },
+            ]
+          }
         ]
       }
     ],
