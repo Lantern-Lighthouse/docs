@@ -3,6 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Lantern Docs",
   description: "Documentation for Lantern projects",
+  rewrites: {
+    'en/:rest*': ':rest*'
+  },
+
+  cleanUrls: true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -14,7 +19,8 @@ export default defineConfig({
         text: 'Atheja API',
         items: [
           { text: 'Overview', link: '/atheja/' },
-          { text: 'Config', link: '/atheja/config' }
+          { text: 'Config', link: '/atheja/config' },
+          { text: 'Database', link: '/atheja/database' }
         ]
       }
     ],
@@ -24,5 +30,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lantern-lighthouse' }
     ]
+  },
+  locales: {
+    root: { label: 'English', lang: 'en-US', dir: 'ltr' },
   }
 })
