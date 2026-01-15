@@ -88,8 +88,8 @@ you should see something like this:
   "message": "API is running",
   "version": {
     "API version": 1,
-    "Atheja version": "1.0.1",
-    "Atheja codename": "Megaclite"
+    "Atheja version": "1.1.1",
+    "Atheja codename": "Taygete"
   },
   "stats": {
     "categories": 2,
