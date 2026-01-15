@@ -1,26 +1,11 @@
 # Configuration
 This page describes what each configuration value means.
 
-> [!important]
-> This does not mean, that every variable should be changed as it can break the whole project.
-
 ## ATH
 
 `ATH` holds variables used within Atheja's code.
 
-### `VERSION`
-Atheja's current version.
-
-Following `GENERATION.MAJOR.MINOR` syntax:
-* `GENERATION` - changes when there is no backward compatibility. Usualy on endpoint deletion.
-* `MAJOR` - changes when there are new features.
-* `MINOR` - changes when there are bug fixes released.
-
-### `vAPI`
-Mirrors current generation.
-
-### `CODENAME`
-Every generation or major change brings its own codename.
+Config file is located at `app/Configs/atheja.ini`
 
 ### `DATABASE_CONNECTION_TYPE`
 * Default value: `"sqlite"`
@@ -56,33 +41,12 @@ How to handle results with `null` value for whether entry is NSFW?
 
 Usefull only for Atheja instances upgrading from pre-release to `1.0`.
 
-### `SETUP_FINISHED`
-
-Value holds information for the back-end server if the setup is completed.
-
-## Configs
-
-`configs` holds paths leading to another config files used within the project.
-
-### Syntax
-
-```ini
-path/to/config/file.ini = 1 # Boolean as int
-path/to/config/another/file.ini = true # Boolean as bool
-```
-
-When using Responsivity's `update_config_value`, the `true` is changed to `1`.
-
 ## Globals
 
+> [!caution]
+> This section is for developers.
+
 `globals` holds variables used for Fat Free Framework configuration.
-
-### `AUTOLOAD`
-* Default value: `"app/"`
-
-This variable tells the framework what is the application's entrypoint.
-
-Changing this variable breaks the whole application unless the paths are changed accordingly.
 
 ### `DEBUG`
 * Default value: `0`
@@ -97,9 +61,3 @@ Usefull when developing or reporting issues.
 
 > [!tip]
 > When developing, it is recomended to set this value to `3`.
-
-### `UI`
-* Default value: `"app/Views/"`
-
-> [!note] Unused variable
-> This variable is unused and will be removed in Atheja 1.1.0

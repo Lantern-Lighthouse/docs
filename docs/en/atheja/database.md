@@ -8,7 +8,7 @@ Currently there are supported 3 database formats:
 - [SQLite](sqlite.org)
 - [PostgreSQL](https://www.postgresql.org)
 
-## How to setup - preparations
+## How to setup: Preparations
 
 Before visiting Atheja's root endpoint or any front-end,
 it is recommended to setup database connection.
@@ -20,7 +20,7 @@ Line one (contains `[db]`) must not be commented out.
 
 ### MySQL
 
-1. Open Atheja's configuration file (located at `app/Configs/config.ini`),
+1. Open Atheja's configuration file (located at `app/Configs/atheja.ini`),
    find `DATABASE_CONNECTION_TYPE` token and edit following line to:
    ```ini
    [ATH]
@@ -37,7 +37,7 @@ Now you can safely connect to Atheja.
 
 ### SQLite
 
-1. Open Atheja's configuration file (located at `app/Configs/config.ini`),
+1. Open Atheja's configuration file (located at `app/Configs/atheja.ini`),
    find `DATABASE_CONNECTION_TYPE` token and edit following line to:
    ```ini
    [ATH]
@@ -54,7 +54,7 @@ Now you can safely connect to Atheja.
 
 ### PostgreSQL
 
-1. Open Atheja's configuration file (located at `app/Configs/config.ini`),
+1. Open Atheja's configuration file (located at `app/Configs/atheja.ini`),
    find `DATABASE_CONNECTION_TYPE` token and edit following line to:
    ```ini
    [ATH]
@@ -69,9 +69,9 @@ Now you can safely connect to Atheja.
 
 Now you can safely connect to Atheja.
 
-## How to setup - initialization
+## How to setup: Initialization
 
-After completing [first steps](<database#How to setup - preparations>), navigate in browser (or any API client) to `/api/db/init` endpoint.
+After completing [first steps](<database#How to setup: Preparations>), navigate in browser (or any API client) to `/api/db/init` endpoint.
 
 This will setup all tables and relations.
 

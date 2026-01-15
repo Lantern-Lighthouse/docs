@@ -38,6 +38,7 @@ export default defineConfig({
                 ]
               },
               { text: 'Ribbit', link: 'ribbit' },
+              { text: 'Reports', link: 'reports' },
             ]
           }
         ]

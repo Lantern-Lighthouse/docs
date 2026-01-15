@@ -97,7 +97,8 @@ you should see something like this:
     "sessions": 0,
     "tags": 0,
     "users": 0,
-    "votes": 0
+    "votes": 0,
+    "reports": 0
   }
 }
 ```
