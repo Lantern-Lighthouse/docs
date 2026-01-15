@@ -26,8 +26,8 @@ export default defineConfig({
             base: '/atheja/api/',
             items: [
               { text: 'Overview', link: '/' },
-              { text: 'Database', link: 'db' },
               { text: 'User', link: 'user' },
+              { text: 'Database', link: 'db/' },
               {
                 text: 'Search',
                 base: '/atheja/api/search/',
