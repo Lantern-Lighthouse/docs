@@ -1,3 +1,8 @@
+---
+prev:
+  text: Database Configuration
+---
+
 # Overview
 
 > [!note] Is Atheja installed?

@@ -32,13 +32,13 @@ export default defineConfig({
                 text: 'Search',
                 base: '/atheja/api/search/',
                 items: [
-                  { text: 'Categories', link: 'categories' },
-                  { text: 'Tags', link: 'tags' },
-                  { text: 'Entries', link: 'entries' },
+                  { text: 'Categories', link: 'categories/' },
+                  { text: 'Tags', link: 'tags/' },
+                  { text: 'Entries', link: 'entries/' },
                 ]
               },
-              { text: 'Ribbit', link: 'ribbit' },
-              { text: 'Reports', link: 'reports' },
+              { text: 'Ribbit', link: 'ribbit/' },
+              { text: 'Reports', link: 'reports/' },
             ]
           }
         ]
